@@ -34,7 +34,7 @@ $.pop = {
         return toastRemove = setInterval(function() {
           $('#popup').remove();
           return clearInterval(toastRemove);
-        }, 1000);
+        }, 10000);
       case 'form':
         return $('.pop-text').addClass('pop-form-text').append(message);
     }

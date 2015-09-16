@@ -49,7 +49,7 @@ $.pop =
         toastRemove = setInterval( ()->
           $('#popup').remove()
           clearInterval(toastRemove)
-        , 1000)
+        , 10000)
 
       when 'form'
         $('.pop-text').addClass('pop-form-text').append(message)

@@ -17,11 +17,12 @@ $border-color: #aaa;
   @include border-radius(5px);
   background-color: #fff;
   border: 1px solid $border-color;
-  width: 80%;
+  //width: 80%;
+  width: 254px;
   //height: 300px;
   top: 50%;
   left: 50%;
-  margin-left: -40%;
+  margin-left: -127px;
   margin-top: -130px;
   //padding-left: 20px;
   //padding-right: 20px;
@@ -66,6 +67,7 @@ $border-color: #aaa;
   text-align: center;
   top: 50%;
 }
+
 .pop-form-text {
   top: 0;
   padding: 20px;

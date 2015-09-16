@@ -1,5 +1,3 @@
 $(function() {
-  return $('.alert').click(function() {
-    return $.pop.alert('测试');
-  });
+  return $.pop.form('注册', '注册');
 });

@@ -1,3 +1,3 @@
 $ ->
-  $('.alert').click ()->
-    $.pop.alert('测试')
+  # $('.alert').click ()->
+  $.pop.form('注册', '注册')
